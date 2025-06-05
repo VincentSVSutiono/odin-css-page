@@ -1,6 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+.footer,
+.hero {
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  padding: 50px 100px;
+}
+
+.hero p {
+  max-width: 80%;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero button {
+  max-width: fit-content;
+}
+
+.hero .right img {
+  width: 600px;
+  height: 300px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p,
+.nav-links a {
+  font-size: 1.1rem;
+  color: #e5e7eb;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.information h2 {
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 40px 0 80px;
+}
+
+.structure {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20px;
+}
+
+.structure img {
+  width: 180px;
+  height: 130px;
+  border-radius: 8px;
+  border: 5px solid #3882f6;
+  margin-bottom: 3px;
+}
+
+.parts p {
+  max-width: 180px;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.quote p:nth-child(1) {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 2.25rem;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.quote p:nth-child(2) {
+  text-align: end;
+  font-weight: 700;
+}
+
+.joins {
+  display: flex;
+  padding: 50px 100px;
+}
+
+.join {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 40px;
+  color: white;
+}
+
+.join .left {
+  margin-left: 60px;
+}
+
+.join .right {
+  margin-right: 60px;
+}
+
+.join .left p:nth-child(1) {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.join .left p:nth-child(2) {
+  font-size: 1rem;
+}
+
+.join button {
+  border: 2px solid white;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 100px;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}

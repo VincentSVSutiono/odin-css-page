@@ -126,6 +126,7 @@ nav img {
 .quote p:nth-child(2) {
   text-align: end;
   font-weight: 700;
+  color: red;
 }
 
 .joins {

@@ -130,7 +130,7 @@ nav img {
 
 .joins {
   display: flex;
-  padding: 50px 100px;
+  padding: 100px;
 }
 
 .join {
@@ -141,6 +141,7 @@ nav img {
   background-color: #3882f6;
   padding: 40px;
   color: white;
+  border-radius: 5px;
 }
 
 .join .left {
